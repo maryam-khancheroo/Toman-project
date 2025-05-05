@@ -1,0 +1,911 @@
+{
+	"info": {
+		"_postman_id": "4efe6e0a-d737-486a-a3a2-fff2aff8ac19",
+		"name": "alibaba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13135524"
+	},
+	"item": [
+		{
+			"name": "https://ws.alibaba.ir/api/v2/flights/domestic/available/cheapest",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.alibaba.ir"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.alibaba.ir/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "ab-alohomora",
+						"value": "mV3Ln8TL1sjak7hgagMPuu"
+					},
+					{
+						"key": "ab-channel",
+						"value": "WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.3"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "tracing-device",
+						"value": "N,Chrome,135.0.0.0,N,N,Windows"
+					},
+					{
+						"key": "tracing-sessionid",
+						"value": "1746348640852"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin\": \"BND\",\r\n    \"destination\": \"THR\",\r\n    \"backwardDay\":0,\r\n    \"forwardDay\": 60,\r\n    \"referenceDate\": \"2025-05-04T10:05:47.841Z\"\r\n}"
+				},
+				"url": {
+					"raw": "https://ws.alibaba.ir/api/v2/flights/domestic/available/cheapest",
+					"protocol": "https",
+					"host": [
+						"ws",
+						"alibaba",
+						"ir"
+					],
+					"path": [
+						"api",
+						"v2",
+						"flights",
+						"domestic",
+						"available",
+						"cheapest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ws.alibaba.ir/api/v1/flights/domestic/available/HE3DENBXG44DKMZNGAWTMMZYHAYTSNRXGM2TCNZXGMZDCNZUFU3TSLKCJZCC2VCIKIWTEMBSGUYDKMBYFUWS2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "FCAB-Variant",
+						"value": "3"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.alibaba.ir"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.alibaba.ir/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "ab-alohomora",
+						"value": "mV3Ln8TL1sjak7hgagMPuu"
+					},
+					{
+						"key": "ab-channel",
+						"value": "WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.3"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "tracing-device",
+						"value": "N,Chrome,135.0.0.0,N,N,Windows"
+					},
+					{
+						"key": "tracing-sessionid",
+						"value": "1746348640852"
+					}
+				],
+				"url": {
+					"raw": "https://ws.alibaba.ir/api/v1/flights/domestic/available/HE3DENBXG44DKMZNGAWTMMZYHAYTSNRXGM2TCNZXGMZDCNZUFU3TSLKCJZCC2VCIKIWTEMBSGUYDKMBYFUWS2",
+					"protocol": "https",
+					"host": [
+						"ws",
+						"alibaba",
+						"ir"
+					],
+					"path": [
+						"api",
+						"v1",
+						"flights",
+						"domestic",
+						"available",
+						"HE3DENBXG44DKMZNGAWTMMZYHAYTSNRXGM2TCNZXGMZDCNZUFU3TSLKCJZCC2VCIKIWTEMBSGUYDKMBYFUWS2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ws.alibaba.ir/api/v1/flights/domestic/cross-sell/get-info-by-variant",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.alibaba.ir"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.alibaba.ir/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "ab-alohomora",
+						"value": "mV3Ln8TL1sjak7hgagMPuu"
+					},
+					{
+						"key": "ab-channel",
+						"value": "WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.3"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "tracing-device",
+						"value": "N,Chrome,135.0.0.0,N,N,Windows"
+					},
+					{
+						"key": "tracing-sessionid",
+						"value": "1746348640852"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"proposalId\": \"ALBBDOMFL3CC8BAFCF10949B45CCC1FE8BFB5D5E38D5F78E19885B962BBB7D8FA20D6D48AE27B2F468AAD980538585BB1A6FD8A9F85B54E2AACD6A29B0B55F80F9E26FA931356CC5910D22EC7E3892678D82BD4514325232E6A3DC29F07A26717C732DB5A2942FF503E3B13AF902E4BFE7B4B6B09186025F0D5D216B62BE158F3A56BF9FF0B877EA81F85A287E14B5FB61608942D99689C5C9EA98A5ABCD2AD536ECDB7795736271823768CAC739B683D7C2E0CCD113AA33DA8C8EB979A8E421101C81031C771B417153066D8D885191FE476B80D2AD000BAC95A9B7EC36E7F30AA29FF4C2D22020BADCEBA17C183C63BC681A748D0D6EFB7187532FF05BBC88D12BCE030D3517523F76B8D6B561000BD829D66C00FFF282D0B98A90B1457E8454073900682045B5E6AB2EFABAF6D75032482B874BB5C738776284D04069812533B596D618EC139514BC58475BABDC8C69A767B0B41DEA20C3E67CE3502156AD8619E93F18EBCA1F17D98CB269CB93DA9E0CB3B668EF9B5FEDA9537C63F055D19A480173C01FC404D08C92536929D557C79B071969DA672E17EACBB03865735AE040976F8D7BAA1D47852CA157F79245CB5986790A379712FBE8CF1A5479D9707115A3D7D35FF25F3C982A906B76CC2BB7DE6BF8DC43CFF17C884527DE95FB8064C1159AD58DCF4C6E1A8199F0C46B462B0A37D5AD50AD9621F12A9379197D20103F8F924E3ADF543CD90B7E04BD6F5E5D7BCA1E8AD79B514A6E4CDFEC944CADE59FBF27599C5E08C19F5718C48C37C98D87561472BC40954E291D55E3E063A088CDDD1F42752C539D95C87C87E58DA84FC9FEF31B83D729984F86025BA233DFC20B9D6DD96A0C2DDED5A3096672874947F8C19048E2D11C61CB7D3216E33BDD5250C0C19\",\r\n    \"userVariants\": {\r\n        \"freeCancelation\": true\r\n    },\r\n    \"passengers\": {\r\n        \"adult\": 1,\r\n        \"child\": 0,\r\n        \"infant\": 0\r\n    },\r\n    \"isToman\": true\r\n}"
+				},
+				"url": {
+					"raw": "https://ws.alibaba.ir/api/v1/flights/domestic/cross-sell/get-info-by-variant",
+					"protocol": "https",
+					"host": [
+						"ws",
+						"alibaba",
+						"ir"
+					],
+					"path": [
+						"api",
+						"v1",
+						"flights",
+						"domestic",
+						"cross-sell",
+						"get-info-by-variant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ws.alibaba.ir/api/v1/coordinator/basket/items/domestic-flights",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.alibaba.ir"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.alibaba.ir/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "ab-alohomora",
+						"value": "mV3Ln8TL1sjak7hgagMPuu"
+					},
+					{
+						"key": "ab-channel",
+						"value": "WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.3"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "tracing-device",
+						"value": "N,Chrome,135.0.0.0,N,N,Windows"
+					},
+					{
+						"key": "tracing-sessionid",
+						"value": "1746348640852"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"providerItemIds\": [\r\n        \"ALBBDOMFLB7BCE6CE1468E7472C152C42E06087E0B79E9B977E55CB4B7BA8C0BCC86B647ADD824F5233C4CF96EFED63BB4857CB3805CDB60532AFE67DC7ABCC570B012BD212BD23D32C4F5A937F5F33EB75127BD962DBE0726BA868F707AEF379E64ACE049F4BC5A799061E8A4075D8724B4D10FF921C277984ACD1C6B83D461A588BBE002175363D3373D19E8BAF16251C0267234CBCCE53D494CFD42E74FE3F221208A2FD6B9C71E2B5BA4D70568EF256E59C12A06CE2423E21A88063CABD2CBCD040DA4D7C21899B068BB375A460E730E9412211ABB853B9EA59DBE887CD5AC8AB7349615A1B27F6EC193972F0522DCF0E386D66CF2E57734BCFC4E5D2F702C1C2AEEC00FD01C3A4835810C31FC605C940863F4AC4AD7ED27D1E0AA7A6D29846D0833EB0B950F83E60693C29FCB89CB4B2ECEE8F4D47B8CCB7024D17AA383EB53CC9097978AD1EC707E900B63CD8A4152AE01C31F35DB6A6D57657F1DAC008474B4B0C6DA41A0989B6C9337AE2EB997342B7C34CDEB8AE1DA057E262EF648183A803B46D3AEE150A7C83548311C6255089EEC39372B96E2CA0183FC2922F3B7DF7F981DE50B1F496813409FA92448B8352B701CB73B787EF3072D0225F7653F8D44BDBE8DFF5963249D885DCEC8BEB178D6A048326653C14219742CB9E078A1BCB8B5401D91AE37D440AF9E1DBEA2744501CF9CEB596DB0DD9526D7C5EC71335BA9E7F6B5153C66FACB055FBB95BC0685DE7BD63661631204B254462B4EA1F65E9EAC8FDD93D712CF78BDAE837065B8A2B881C94712392DDD3FB73331890A806078A08F5FE9190B24FB208B0BD3103DBF9203CC8508B5EEA6848D638C1262A610DE52289352A320D3F5507E89BEA86EE4762F09C8D8F931EC3E8E391DF70C92BDC1F27\"\r\n    ],\r\n    \"passengers\": [\r\n        {\r\n            \"flightAgeType\": \"adult\",\r\n            \"title\": \"MS\",\r\n            \"name\": \"Maryam\",\r\n            \"lastName\": \"khancheroo\",\r\n            \"id\": 0,\r\n            \"birthdate\": \"1997-02-10\",\r\n            \"identification\": {\r\n                \"id\": 0,\r\n                \"type\": \"NationalNumber\",\r\n                \"placeOfIssue\": \"IRN\",\r\n                \"placeOfBirth\": \"IRN\",\r\n                \"code\": \"3380854948\"\r\n            }\r\n        }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "https://ws.alibaba.ir/api/v1/coordinator/basket/items/domestic-flights",
+					"protocol": "https",
+					"host": [
+						"ws",
+						"alibaba",
+						"ir"
+					],
+					"path": [
+						"api",
+						"v1",
+						"coordinator",
+						"basket",
+						"items",
+						"domestic-flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ws.alibaba.ir/api/v2/coordinator/basket/126608806/checkout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.alibaba.ir"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.alibaba.ir/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "ab-alohomora",
+						"value": "mV3Ln8TL1sjak7hgagMPuu"
+					},
+					{
+						"key": "ab-channel",
+						"value": "WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.3"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "tracing-device",
+						"value": "N,Chrome,135.0.0.0,N,N,Windows"
+					},
+					{
+						"key": "tracing-sessionid",
+						"value": "1746348640852"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"notificationCellphoneNumber\":\"\",\"notificationEmail\":\"\"}"
+				},
+				"url": {
+					"raw": "https://ws.alibaba.ir/api/v2/coordinator/basket/126579912/checkout",
+					"protocol": "https",
+					"host": [
+						"ws",
+						"alibaba",
+						"ir"
+					],
+					"path": [
+						"api",
+						"v2",
+						"coordinator",
+						"basket",
+						"126579912",
+						"checkout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ws.alibaba.ir/api/v1/coordinator/order/1075939419",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.alibaba.ir"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.alibaba.ir/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "ab-alohomora",
+						"value": "mV3Ln8TL1sjak7hgagMPuu"
+					},
+					{
+						"key": "ab-channel",
+						"value": "WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.3"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "tracing-device",
+						"value": "N,Chrome,135.0.0.0,N,N,Windows"
+					},
+					{
+						"key": "tracing-sessionid",
+						"value": "1746348640852"
+					}
+				],
+				"url": {
+					"raw": "https://ws.alibaba.ir/api/v1/coordinator/order/1075939419",
+					"protocol": "https",
+					"host": [
+						"ws",
+						"alibaba",
+						"ir"
+					],
+					"path": [
+						"api",
+						"v1",
+						"coordinator",
+						"order",
+						"1075939419"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ws.alibaba.ir/api/v2/coordinator/order/1075962976/status",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.alibaba.ir"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.alibaba.ir/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "ab-alohomora",
+						"value": "mV3Ln8TL1sjak7hgagMPuu"
+					},
+					{
+						"key": "ab-channel",
+						"value": "WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.5"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "tracing-device",
+						"value": "N,Chrome,135.0.0.0,N,N,Windows"
+					},
+					{
+						"key": "tracing-sessionid",
+						"value": "1746437760344"
+					}
+				],
+				"url": {
+					"raw": "https://ws.alibaba.ir/api/v2/coordinator/order/1075962976/status",
+					"protocol": "https",
+					"host": [
+						"ws",
+						"alibaba",
+						"ir"
+					],
+					"path": [
+						"api",
+						"v2",
+						"coordinator",
+						"order",
+						"1075962976",
+						"status"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://ws.alibaba.ir/api/v2/coordinator/order/1075962976/status' \\\r\n  -H 'Accept: application/json, text/plain, */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Origin: https://www.alibaba.ir' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://www.alibaba.ir/' \\\r\n  -H 'Sec-Fetch-Dest: empty' \\\r\n  -H 'Sec-Fetch-Mode: cors' \\\r\n  -H 'Sec-Fetch-Site: same-site' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' \\\r\n  -H 'ab-alohomora: mV3Ln8TL1sjak7hgagMPuu' \\\r\n  -H 'ab-channel: WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.5' \\\r\n  -H 'sec-ch-ua: \"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'tracing-device: N,Chrome,135.0.0.0,N,N,Windows' \\\r\n  -H 'tracing-sessionid: 1746437760344'"
+			},
+			"response": []
+		},
+		{
+			"name": "https://ws.alibaba.ir/api/v3/coordinator/order/1075963166/pay-request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.alibaba.ir"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.alibaba.ir/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "ab-alohomora",
+						"value": "mV3Ln8TL1sjak7hgagMPuu"
+					},
+					{
+						"key": "ab-channel",
+						"value": "WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.5"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "tracing-device",
+						"value": "N,Chrome,135.0.0.0,N,N,Windows"
+					},
+					{
+						"key": "tracing-sessionid",
+						"value": "1746437760344"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"redirectUrl\":\"https%3A%2F%2Fwww.alibaba.ir%2Fflights%2FBND-THR%2F2on8qn%2F1075963166%2Fissue\",\"payRequestType\":\"PayByBank\",\"useWalletAccountCredit\":false,\"useLoanAccountCredit\":false,\"totalAmount\":36500000}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ws.alibaba.ir/api/v3/coordinator/order/1075963166/pay-request",
+					"protocol": "https",
+					"host": [
+						"ws",
+						"alibaba",
+						"ir"
+					],
+					"path": [
+						"api",
+						"v3",
+						"coordinator",
+						"order",
+						"1075963166",
+						"pay-request"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://ws.alibaba.ir/api/v3/coordinator/order/1075963166/pay-request' \\\r\n  -H 'Accept: application/json, text/plain, */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2MDk5NjE0MUU5MTJDMDhBRjQyMEFGMjUyNjI2N0Q5NkNGRjUyRjZSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6InBnbVdGQjZSTEFpdlFncnlVbUpuMld6X1V2WSJ9.eyJuYmYiOjE3NDYzNTM1MTAsImV4cCI6MTc0NzIxNzUxMCwiaXNzIjoiaHR0cDovL2lkZW50aXR5IiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InJlLmNsaWVudCIsInN1YiI6ImM5MTM3YzZmLTI3NzAtNDVjMi05ZjM4LTJkMDg5NzEzNzg4OCIsImF1dGhfdGltZSI6MTc0NjM1MzUxMCwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwOTIxMjkyNTcxNSIsInBob25lX251bWJlciI6IjA5MjEyOTI1NzE1IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJpc19yZXNlbGxlciI6ZmFsc2UsInNhbGVzX2NoYW5uZWwiOiJCMkMiLCJsZWdhbF9yb2xlX2lzQWRtaW4iOiJmYWxzZSIsInVzZXJfdW5pcXVlX251bWJlciI6IjUwODYzMzY1NCIsImp0aSI6IjJDNDMyQUU0NEQwNDFCNTc2MkVBNTc2N0EzRkFGNjBEIiwiaWF0IjoxNzQ2MzUzNTEwLCJzY29wZSI6WyJhcGkxIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIm90cCJdfQ.sloQX72lDJmYqOouh_YDZHxRXyS7bRlFd-gsAhbjXpO92_URVhZIgRydiDFc1qJ3eHyXy_ZaDFt1c5c6m5ipRT5XOzSlraSSJGJ41ZCmGo8z1iWHa2OjeQJgvuhbUj5cPKGH1ZDGtXen4D_AqAERQllwmOusCWYvL6bt6br0gD0QISUI7isQdu1vHCyry4EyW0ansESRTSTQjCbaB3DyPN6FmP-AMB1iUR2lhmrx1oKNgL9TvkJtehTpt7MuXi4DPSD8XBkUCAMVlzKuM_1--xhb6JP8mEcwbr7MZ0bGdN8-D10v28kT44miUP62_-zlN51BQdAnfXWl21DKFg9AdA' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://www.alibaba.ir' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://www.alibaba.ir/' \\\r\n  -H 'Sec-Fetch-Dest: empty' \\\r\n  -H 'Sec-Fetch-Mode: cors' \\\r\n  -H 'Sec-Fetch-Site: same-site' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' \\\r\n  -H 'ab-alohomora: mV3Ln8TL1sjak7hgagMPuu' \\\r\n  -H 'ab-channel: WEB-NEW,PRODUCTION,CSR,www.alibaba.ir,desktop,Chrome,135.0.0.0,N,N,Windows,10,3.156.5' \\\r\n  -H 'sec-ch-ua: \"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'tracing-device: N,Chrome,135.0.0.0,N,N,Windows' \\\r\n  -H 'tracing-sessionid: 1746437760344' \\\r\n  --data-raw '{\"redirectUrl\":\"https%3A%2F%2Fwww.alibaba.ir%2Fflights%2FBND-THR%2F2on8qn%2F1075963166%2Fissue\",\"payRequestType\":\"PayByBank\",\"useWalletAccountCredit\":false,\"useLoanAccountCredit\":false,\"totalAmount\":36500000}'"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "enter your token",
+			"type": "string"
+		}
+	]
+}
